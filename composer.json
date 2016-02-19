@@ -1,0 +1,32 @@
+{
+    "name": "jirro/bundle",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://github.com/jirro",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rendy Eko Prastiyo",
+            "email": "rendyekoprastiyo@gmail.com",
+            "homepage": "http://github.com/rendyep",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "league/container": "~1.3",
+        "jirro/orm": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jirro\\Component\\Bundle\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
